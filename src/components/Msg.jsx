@@ -1,15 +1,19 @@
-import { Button } from "react-bootstrap";
+/* import { Button } from "react-bootstrap";
 import { useState } from "react";
 
 import React from 'react';
 
 const Msg = () => {
     const [changed, setChanged] = useState(false);
+    function handleClick() {
+        setChanged(true);
+    }
     return (
         <div>
-            <Button>Click here</Button>
+            <Button 
+            onClick={handleClick}>Click here</Button>
         </div>
     );
 };
 
-export default Msg;
+export default Msg; */
