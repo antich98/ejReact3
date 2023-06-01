@@ -1,6 +1,5 @@
 import "./App.css";
 import Titulos from "./components/Titulos";
-/* import Msg from "./components/Msg"; */
 
 function App() {
   return (
