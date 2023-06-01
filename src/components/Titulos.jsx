@@ -1,3 +1,4 @@
+import { Button } from "react-bootstrap";
 import { useState } from "react";
 const Titulos = (props) => {
     const [clicked, setClicked] = useState(false);
@@ -10,7 +11,7 @@ const Titulos = (props) => {
         <h1>
             Hello {props.tituloNuevo}{clicked ? ' (from changed state)' : ''} 
         </h1>
-        <button onClick={handleClick}>Click here</button>
+        <Button onClick={handleClick}>Click here</Button>
         </div>
     );
 };
