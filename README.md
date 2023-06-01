@@ -5,8 +5,7 @@ Este proyecto es un trabajo práctico de RollingCode.
 - Javascript
 - CSS
 ## Librerías utilizadas
-- Bootstrap
-- React Bootstrap
+- React
 ## Como clonar el repositorio
 En una terminal ejecuta el siguiente comando:
 ```
